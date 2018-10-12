@@ -2,6 +2,7 @@
   "extends": ["airbnb", "prettier", "prettier/react"],
   "parser": "babel-eslint",
   "rules": {
+    "react/prefer-stateless-function": "off",
     "import/no-unresolved": "off",
     "react/jsx-filename-extension": [
       1,
